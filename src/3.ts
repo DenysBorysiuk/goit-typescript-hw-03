@@ -16,7 +16,7 @@ interface ICharacter {
 }
 
 interface ISpellCaster {
-  castSpell;
+  castSpell(): void;
 }
 
 // реалізація класу Wizard
